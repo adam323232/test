@@ -85,7 +85,7 @@ const Bookingscreen = ({}) => {
   }
 
   return (
-    <div className="m-5">
+    <div className="booking m-5">
       {loading ? (
         <Loader />
       ) : room ? (

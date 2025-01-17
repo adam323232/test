@@ -13,7 +13,7 @@ const Profilescreen = () => {
   }, []);
 
   return (
-    <div className="ml-3 ml-3">
+    <div className="profil ml-3 ml-3">
       <Tabs defaultActiveKey="1">
         <TabPane tab="Profil" key="1">
           <h1>Profilom</h1>
