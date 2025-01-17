@@ -2,8 +2,6 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Loader from "../components/Loader";
 import moment from "moment";
-import StripeCheckout from "react-stripe-checkout";
-import Swal from "sweetalert2";
 
 const Bookingscreen = ({}) => {
   const [loading, setLoading] = useState(true);
